@@ -1,0 +1,33 @@
+# mkdocs.yml
+
+# -------------------------------------------------------------
+# CONFIGURACIÓN GENERAL DEL SITIO
+# -------------------------------------------------------------
+site_name: PPS-Unidad1-Pruebas_de_APP's # Define el título que aparecerá en la barra de navegación y en la etiqueta <title> del navegador.
+
+# -------------------------------------------------------------
+# ESTRUCTURA DE NAVEGACIÓN (MENÚ)
+# -------------------------------------------------------------
+# Define la lista de enlaces y el orden de aparición en el menú de navegación principal.
+nav:
+  # El nombre de la sección en el menú: nombre_archivo.md
+  - Home: index.md
+
+# Se pueden añadir subsecciones anidando listas:
+  # - Referencia: 
+  #   - Funciones: referencia/funciones.md
+  #   - Clases: referencia/clases.md
+
+# -------------------------------------------------------------
+# DIRECTORIOS
+# -------------------------------------------------------------
+# Ruta de la carpeta que contiene todos los archivos .md (Markdown) de la documentación.
+# MkDocs buscará aquí los archivos listados en 'nav'.
+doc_dir: docs 
+# -------------------------------------------------------------
+# TEMA (Opcional, pero común)
+# -------------------------------------------------------------
+# theme: 
+#   name: 'material' # Si usas el popular tema Material for MkDocs.
+#   # highlightjs: true
+#   # code_fences: true
