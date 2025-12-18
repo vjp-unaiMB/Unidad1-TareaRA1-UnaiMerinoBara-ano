@@ -13,10 +13,10 @@ nav:
   # El nombre de la sección en el menú: nombre_archivo.md
   - Home: index.md
   - Elementos de python: ElementosDePython.md
-  - Ejecución y depuración:  EjecucionYDepuracion.md
+  - Ejecución y depuración: EjecucionYDepuracion.md
   - Pruebas: Pruebas.md
   - Ejecucion en Sandbox: EjecucionEnSandbox.md
-  - Comparacion de lenguajes: ComparacionEstructuralDeLenguajesFamosos.md
+  - Comparacion de lenguajes: ComprobacionEstructuralDeLenguajesFamosos.md
 
 # Se pueden añadir subsecciones anidando listas:
   # - Referencia: 
