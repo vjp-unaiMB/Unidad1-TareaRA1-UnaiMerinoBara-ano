@@ -32,9 +32,11 @@ docs_dir: docs
 # -------------------------------------------------------------
 # TEMA (Opcional, pero común)
 # -------------------------------------------------------------
-#theme: 
-#   name: 'material' # Si usas el popular tema Material for MkDocs.
-#    highlightjs: true
-#    code_fences: true
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
 
 
