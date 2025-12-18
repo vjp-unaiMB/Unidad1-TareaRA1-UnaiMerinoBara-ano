@@ -164,12 +164,12 @@ Las estructuras que contienen el decorador @property son convertidas en un **mé
 
 En este caso:
 
-       * Fase
-       * Ingresos (Numérico)
-       * Ocupado (Booleano)
-       * prelavado_a_mano (Booleano)
-       * Secado_a_mano (Booleano)
-       * Encerado (Booleano)
+* Fase
+* Ingresos (Numérico)
+* Ocupado (Booleano)
+* prelavado_a_mano (Booleano)
+* Secado_a_mano (Booleano)
+* Encerado (Booleano)
        
 
 
@@ -350,7 +350,7 @@ def imprimir_estado(self):
         
 ```
 
-Este **método ejecutar_y_obtener_fases** Se invoca junto a un parámetro numérico y 3 parámetros adicionales referentes a prelavad, secado y encerado. Imprime una serie de sentencias en las que se informa del estado de lavado al usuario. Ejecutando un ciclo completo y devolviendo un array de en lista de fases visitadas.
+Este **método ejecutar_y_obtener_fases** Se invoca junto a un parámetro numérico y 3 parámetros adicionales referentes a prelavado, secado y encerado. Imprime una serie de sentencias en las que se informa del estado de lavado al usuario. Ejecutando un ciclo completo y devolviendo un array de en lista de fases visitadas.
 
 
 
