@@ -37,9 +37,4 @@ docs_dir: docs
 #    highlightjs: true
 #    code_fences: true
 
-theme:
-  name: material
-  features:
-    - navigation.tabs
-    - navigation.sections
-    - navigation.top
+
