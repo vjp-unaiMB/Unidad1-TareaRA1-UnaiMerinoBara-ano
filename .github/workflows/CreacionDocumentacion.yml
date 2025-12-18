@@ -9,7 +9,7 @@ on:
     # Este workflow se ejecutará automáticamente cada vez que se haga un 'push' (subida)
     # de código al repositorio.
     branches:
-      - main # Específicamente, solo se ejecuta si el push se realiza sobre la rama 'main'.
+      - master # Específicamente, solo se ejecuta si el push se realiza sobre la rama 'main'.
 
 # -----------------------------------------------------------
 # PERMISOS
