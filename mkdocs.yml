@@ -12,6 +12,11 @@ site_name: PPS-Unidad1-Pruebas_de_APP's # Define el título que aparecerá en la
 nav:
   # El nombre de la sección en el menú: nombre_archivo.md
   - Home: index.md
+  - Elementos de python: ElementosDePython.md
+  - Ejecución y depuración:  EjecucionYDepuracion.md
+  - Pruebas: Pruebas.md
+  - Ejecucion en Sandbox: EjecucionEnSandbox.md
+  - Comparacion de lenguajes: ComparacionEstructuralDeLenguajesFamosos.md
 
 # Se pueden añadir subsecciones anidando listas:
   # - Referencia: 
