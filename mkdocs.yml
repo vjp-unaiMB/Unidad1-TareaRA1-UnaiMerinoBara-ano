@@ -11,7 +11,7 @@ site_name: PPS-Unidad1-Pruebas_de_APP's # Define el título que aparecerá en la
 # Define la lista de enlaces y el orden de aparición en el menú de navegación principal.
 nav:
   # El nombre de la sección en el menú: nombre_archivo.md
-  - Home: index.md
+  - Inicio: index.md
   - Elementos de python: ElementosDePython.md
   - Ejecución y depuración: EjecucionYDepuracion.md
   - Pruebas: Pruebas.md
@@ -38,5 +38,14 @@ theme:
     - navigation.tabs
     - navigation.sections
     - navigation.top
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Cambiar a modo oscuro
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Cambiar a modo claro
 
 

@@ -30,25 +30,25 @@ Autor: `Unai Merino Barañano`
 ### Elementos de Python
 
 > Explicación del funcionamiento y elementos del código
-[↳ Ir](ElementosDePython.md)
+[➜ Ir](ElementosDePython.md)
 
 ### Ejecución y Depuración
 
 > Prueba de ejecución del programa
-[↳ Ir](EjecucionYDepuracion.md)
+[➜ Ir](EjecucionYDepuracion.md)
 
 ### Pruebas
 
 > Depuración del código y captura de e
-[↳ Ir](EjecucionYDepuracion.md)
+[➜ Ir](EjecucionYDepuracion.md)
 
 ### Ejecución en Sandbox
 
 > Guía de ejecución del programa **lavadero** en un entorno aislado
-[↳ Ir](EjecucionEnSandbox.md)
+[➜ Ir](EjecucionEnSandbox.md)
 
 ### Comparación estructural de los lenguajes más famosos.
 
 > Reflexiónes sobre la arquitectura de los lenguajes y su seguridad
-[↳ Ir](ComparacionEstructuralDeLenguajesFamosos.md)
+[➜ Ir](ComparacionEstructuralDeLenguajesFamosos.md)
 
