@@ -52,7 +52,7 @@ jobs:
     - name: Install dependencies # Nombre descriptivo del paso.
       # Comando que se ejecuta en la terminal de Ubuntu.
       # Instala el generador de documentación MkDocs (necesario para el siguiente paso).
-      run: pip install mkdocs 
+      run: pip install mkdocs mkdocs-material 
 
     # -------------------------------------------------------
     # PASO 4: CONSTRUIR Y DESPLEGAR LA DOCUMENTACIÓN
