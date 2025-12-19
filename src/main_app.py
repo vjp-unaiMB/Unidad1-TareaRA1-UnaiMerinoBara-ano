@@ -80,4 +80,4 @@ if __name__ == "__main__":
     # Precio esperado: 5.00 + 1.50 = 6.50 €
     print("\n=======================================================")
     print("EJEMPLO 4: Prelavado (S), Secado a mano (N), Encerado (N)")
-    ejecutarSimulacion(lavadero_global, prelavado=True, secado_mano=False)
+    ejecutarSimulacion(lavadero_global, prelavado=True, secado_mano=False, encerado=False)
