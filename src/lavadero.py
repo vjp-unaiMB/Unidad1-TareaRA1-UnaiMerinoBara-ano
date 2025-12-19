@@ -91,10 +91,10 @@ class Lavadero:
             coste_lavado += 1.50 
         
         if self.__secado_a_mano:
-            coste_lavado += 1.20 
+            coste_lavado += 1.00
             
         if self.__encerado:
-            coste_lavado += 1.00 
+            coste_lavado += 1.20 
             
         self.__ingresos += coste_lavado
         return coste_lavado
@@ -126,17 +126,17 @@ class Lavadero:
         
         elif self.__fase == self.FASE_RODILLOS:
             if self.__secado_a_mano:
-                self.__fase = self.FASE_SECADO_AUTOMATICO 
+                self.__fase = self.FASE_SECADO_MANO
 
             else:
-                self.__fase = self.FASE_SECADO_MANO
+                self.__fase = self.FASE_SECADO_AUTOMATICO 
         
         elif self.__fase == self.FASE_SECADO_AUTOMATICO:
             self.terminar()
         
         elif self.__fase == self.FASE_SECADO_MANO:
 
-            self.terminar() 
+            self.__fase = self.FASE_ENCERADO
         
         elif self.__fase == self.FASE_ENCERADO:
             self.terminar() 
@@ -174,9 +174,9 @@ class Lavadero:
     # Esta función es útil para pruebas unitarias, no es parte del lavadero real
     # nos crea un array con las fases visitadas en un ciclo completo
 
-def ejecutar_y_obtener_fases(self, prelavado, secado, encerado):
+    def ejecutar_y_obtener_fases(self, prelavado, secado, encerado):
         """Ejecuta un ciclo completo y devuelve la lista de fases visitadas."""
-        self._hacer_lavado(prelavado, secado, encerado)
+        self.hacerLavado(prelavado, secado, encerado)
         fases_visitadas = [self.fase]
 
         while self.ocupado:

@@ -1,7 +1,7 @@
 # tests/test_lavadero_unittest.py
 
 import unittest
-from lavadero import Lavadero
+from src.lavadero import Lavadero
 
 
 class TestLavadero(unittest.TestCase):

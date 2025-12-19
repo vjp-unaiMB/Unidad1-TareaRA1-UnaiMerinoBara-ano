@@ -36,16 +36,22 @@ theme:
   name: material
   features:
     - navigation.tabs
-    - navigation.sections
-    - navigation.top
+    - navigation.expand
+    - search.highlight
   palette:
+    # Modo claro
     - scheme: default
+      primary: deep purple
+      accent: amber
       toggle:
-        icon: material/brightness-7
+        icon: material/weather-night
         name: Cambiar a modo oscuro
+    # Modo oscuro
     - scheme: slate
+      primary: teal
+      accent: lime
       toggle:
-        icon: material/brightness-4
+        icon: material/weather-sunny
         name: Cambiar a modo claro
 
 
