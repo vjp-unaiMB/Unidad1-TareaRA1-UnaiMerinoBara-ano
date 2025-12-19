@@ -1,4 +1,4 @@
-## Comparación estructural de los lenguajes más famosos.
+# Comparación estructural de los lenguajes más famosos.
 
 En este apartado compararé algunos de los **lenguajes** de programación **más populares** y con distintos usos. Poniendo en valor la **seguridad** que ofrecen mediante un breve resumen.
 
@@ -13,7 +13,7 @@ En este apartado compararé algunos de los **lenguajes** de programación **más
 |JavaScript	|Interpretado (JIT en navegadores) ​	|Multiparadigma​	|Media,gracias a que el sandbox del navegador mitiga, pero el XSS es común por manipulación DOM insegura.
 |C	|Compilado nativo ​	|Procedural/imperativo ​	|Muy baja, los punteros y memoria manual causan exploits frecuentes como overflows.
 
-### Conclusiones
+## Conclusiones
 
 * Considero que de base los lenguajes compilados son más seguros que los interpretados, debido a que cuando debes de compilar el código, dicho proceso de traducción obliga al usuario a implementar el código correctamente antes de su ejecución, lo que asegura que la estructura del código es óptima.
 
