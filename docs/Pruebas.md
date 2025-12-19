@@ -259,3 +259,10 @@ En el método de avanzar fase, debemos de intercambiar los valores de intercambi
 El if que detecta si la fase es secado a ***mano(7)*** hace que finalice las fases, en su lugar, debe de cambiar la fase a la de ***encerado(8)***.
 
 > Cambiar el contenido del if de: self.terminar() -> self.__fase = self.FASE_ENCERADO.
+
+
+### RESULTADO FINAL:
+
+![img12](img/imgPruebas/img12.png)
+
+Finalmente todas las pruebas quedan superadas.
